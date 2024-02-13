@@ -33,10 +33,24 @@ function reverseString(stringToModify) {
 
 
     // maniera compatta ed "espressiva"
-    // const finalString = 
+    // const finalString = stringToModify.split("").reverse().join("");
 
     // console.log(reversedStringArray
 
-    return stringToModify.split("").reverse().join("");
+    // return
+
+
+
+    // metodo col ciclo for "primitivo"
+
+    let newString = "";
+
+    for(let i = stringToModify.length - 1; i >= 0 ; i--) {
+
+        newString += stringToModify[i];
+        
+    }
+ 
+    return newString;
 
 }
