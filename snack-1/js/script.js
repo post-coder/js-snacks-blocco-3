@@ -23,16 +23,20 @@ function reverseString(stringToModify) {
     // metodi delle stringhe
 
     // dividendo in lettere, otteniamo un array
-    const dividedStringArray = stringToModify.split("");
+    // const dividedStringArray = stringToModify.split("");
 
-    // riordinare al contrario
-    const reversedStringArray = dividedStringArray.reverse();
+    // // riordinare al contrario
+    // const reversedStringArray = dividedStringArray.reverse();
 
-    // riuniamo l'array in una stringa
-    const rejoinedString = reversedStringArray.join("");
+    // // riuniamo l'array in una stringa
+    // const rejoinedString = reversedStringArray.join("");
+
+
+    // maniera compatta ed "espressiva"
+    // const finalString = 
 
     // console.log(reversedStringArray
 
-    return rejoinedString;
+    return stringToModify.split("").reverse().join("");
 
 }
